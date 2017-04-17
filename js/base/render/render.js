@@ -1,0 +1,1 @@
+// possibly use this file in order to do our animations and rendering. Will need to know about all of our other files in order for it to function correctly. Maybe not though since the window will know about the code when src'd i the index.html... Curious how we can make this work haha.
