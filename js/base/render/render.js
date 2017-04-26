@@ -1,1 +1,30 @@
-// possibly use this file in order to do our animations and rendering. Will need to know about all of our other files in order for it to function correctly. Maybe not though since the window will know about the code when src'd i the index.html... Curious how we can make this work haha.
+function initialize(){
+  // Game(height, width) defaults to black background
+  game = new Game(600, 800);
+  game.render();
+  start();
+}
+
+function render(){
+  // which will render our artwork;
+  // 3 layers of arrays
+  // first layer could be what the character is standing on
+  // second layer could be what the character is equal to
+  // third layer could be what is displayed above the character
+}
+
+function update(){
+  // which will update our logic
+}
+
+function draw(){
+  // which will animate our rendering and updates
+}
+
+
+
+
+// for game creation use this flow
+
+// in index.html call your function for initializing the game
+// call your starting level in the initialize game
