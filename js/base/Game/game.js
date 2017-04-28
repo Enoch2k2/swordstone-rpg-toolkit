@@ -1,13 +1,16 @@
 class Game{
-  constructor(h, w){
+  constructor(){
     this.canvas = document.createElement('canvas');
     this.canvas.id = 'canvas';
-    this.canvas.width = w;
-    this.canvas.height = h;
     this.canvas.style.display = 'block';
     this.canvas.style.margin = 'auto';
     this.canvas.style.backgroundColor = "black";
   }
+}
+
+Game.prototype.size = function(h, w){
+  this.canvas.width = w * 35;
+  this.canvas.height = h * 35;
 }
 
 Game.prototype.changeBackgroundColor = function(color){
