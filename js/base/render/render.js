@@ -1,10 +1,3 @@
-function initialize(){
-  // Game(height, width) defaults to black background
-  game = new Game(600, 800);
-  game.render();
-  start();
-}
-
 function render(){
   // which will render our artwork;
   // 3 layers of arrays

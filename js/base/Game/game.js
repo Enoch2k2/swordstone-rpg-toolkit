@@ -4,7 +4,6 @@ class Game{
     this.canvas.id = 'canvas';
     this.canvas.style.display = 'block';
     this.canvas.style.margin = 'auto';
-    this.canvas.style.backgroundColor = "black";
     this.tileSize = 35;
   }
 }
@@ -22,10 +21,6 @@ Game.prototype.size = function(h, w){
 //     }
 //   }
 // }
-
-Game.prototype.changeBackgroundColor = function(color){
-  this.canvas.style.backgroundColor = color;
-}
 
 Game.prototype.fullScreen = function(){
   this.canvas.width = '100%';
