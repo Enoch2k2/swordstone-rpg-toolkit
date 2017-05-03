@@ -13,3 +13,5 @@ class Window {
 Window.prototype.backgroundColor = function(r,g,b,a=100){
   this.color = `rbga(${r}, ${g}, ${b}, ${a})`;
 }
+
+export default Window;

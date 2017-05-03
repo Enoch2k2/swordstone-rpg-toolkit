@@ -31,3 +31,5 @@ Scene.prototype.render = function(){
   this.ctx.fillStyle = this.backgroundColor;
   this.ctx.fillRect(0, 0, this.width, this.height);
 }
+
+export default Scene;
