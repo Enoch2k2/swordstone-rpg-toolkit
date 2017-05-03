@@ -30,3 +30,5 @@ Game.prototype.fullScreen = function(){
 Game.prototype.render = function () {
   document.body.appendChild(this.canvas);
 }
+
+export default new Game();
